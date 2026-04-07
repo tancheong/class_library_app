@@ -14,5 +14,6 @@ public class Borrow {
     private int id;
     private int bookId;
     private int studentId;
+    private LocalDate borrowDate; // SQL Date
     private LocalDate returnDate;
 }
