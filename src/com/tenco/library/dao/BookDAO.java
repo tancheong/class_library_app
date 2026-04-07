@@ -86,7 +86,6 @@ public class BookDAO {
                 .build();
     }
 
-
     public static void main(String[] args) {
         try {
             List<Book> resultList = new BookDAO().searchBooksByTitle("입문");
