@@ -189,31 +189,6 @@ public class BorrowDAO {
                 conn.close();
             }
         }
-
-        // 1. 대출 기록 확인 - 대출 테이블에 ID 값을 찾을 수 있다
-
-        // 2. 반납일 기록
-
-        // 3. 도서 상태 변경
-
-        // 트랜 잭션 종료 (commit, rollback)
-
-    }
-
-    // 테스트 코드 작성
-    public static void main(String[] args) {
-        // 샘플 데이터 - 20230001
-        BorrowDAO borrowDAO = new BorrowDAO();
-        try {
-            // borrowDAO.borrowBook(1, 1);
-            // java.util.List<Borrow> borrowList = borrowDAO.getBorrowedBooks();
-            // System.out.println(borrowList);
-            borrowDAO.returnBook(1, 1);
-
-        } catch (SQLException e) {
-            System.out.println("-----------------------");
-            System.out.println("오류 발생 : " + e.getMessage());
-        }
     }
 
 }
