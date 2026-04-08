@@ -83,6 +83,7 @@ public class BookDAO {
                 .publisher(rs.getString("publisher"))
                 .publicationYear(rs.getInt("publication_year"))
                 .isbn(rs.getString("isbn"))
+                .available(rs.getBoolean("available"))
                 .build();
     }
 
