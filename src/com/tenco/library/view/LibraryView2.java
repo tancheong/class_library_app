@@ -153,7 +153,7 @@ public class LibraryView2 {
 
     // 5. 학생 목록
     private void listStudents() throws SQLException {
-        List<Student> studentList = service.getAllStudent();
+        List<Student> studentList = service.getAllStudents();
         if (studentList.isEmpty()) {
             System.out.println("등록된 학생이 없습니다.");
         } else {
