@@ -33,8 +33,8 @@ public class DatabaseUtil {
 
         Connection connection = DriverManager.getConnection(URL, DB_USER, PASSWORD);
         System.out.println();
-        System.out.println(connection.getMetaData().getDatabaseProductName());
-        System.out.println(connection.getMetaData().getDatabaseProductVersion());
+        // System.out.println(connection.getMetaData().getDatabaseProductName());
+        // System.out.println(connection.getMetaData().getDatabaseProductVersion());
 
         return connection;
     }
